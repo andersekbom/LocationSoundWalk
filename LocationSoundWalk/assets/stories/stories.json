@@ -1,0 +1,142 @@
+{
+  "stories": [
+    {
+      "id": "downtown_walk",
+      "title": "Downtown City Tour",
+      "description": "Explore the heart of the city with this immersive audio tour featuring historical landmarks and urban sounds.",
+      "soundClips": [
+        {
+          "id": "city_entrance",
+          "title": "Welcome to Downtown",
+          "file": "city_entrance.mp3",
+          "lat": 40.7589,
+          "lng": -73.9851,
+          "radius": 75,
+          "description": "Welcome message and tour introduction"
+        },
+        {
+          "id": "times_square",
+          "title": "Times Square Buzz",
+          "file": "times_square.mp3",
+          "lat": 40.7580,
+          "lng": -73.9855,
+          "radius": 100,
+          "description": "The energy and excitement of Times Square"
+        },
+        {
+          "id": "broadway_theater",
+          "title": "Broadway Magic",
+          "file": "broadway_theater.mp3",
+          "lat": 40.7590,
+          "lng": -73.9845,
+          "radius": 60,
+          "description": "The magic of Broadway theater district"
+        },
+        {
+          "id": "central_park_entrance",
+          "title": "Central Park Gateway",
+          "file": "central_park_entrance.mp3",
+          "lat": 40.7648,
+          "lng": -73.9808,
+          "radius": 80,
+          "description": "Transition from urban to natural spaces"
+        }
+      ]
+    },
+    {
+      "id": "nature_trail",
+      "title": "Nature Discovery Trail",
+      "description": "A peaceful journey through natural landscapes with ambient nature sounds and wildlife audio.",
+      "soundClips": [
+        {
+          "id": "trail_start",
+          "title": "Trail Beginning",
+          "file": "trail_start.mp3",
+          "lat": 40.7829,
+          "lng": -73.9654,
+          "radius": 50,
+          "description": "Welcome to the nature trail"
+        },
+        {
+          "id": "bird_sanctuary",
+          "title": "Bird Sanctuary",
+          "file": "bird_sanctuary.mp3",
+          "lat": 40.7835,
+          "lng": -73.9660,
+          "radius": 70,
+          "description": "Listen to local bird species"
+        },
+        {
+          "id": "waterfall",
+          "title": "Hidden Waterfall",
+          "file": "waterfall.mp3",
+          "lat": 40.7840,
+          "lng": -73.9665,
+          "radius": 40,
+          "description": "The soothing sound of flowing water"
+        },
+        {
+          "id": "forest_clearing",
+          "title": "Forest Clearing",
+          "file": "forest_clearing.mp3",
+          "lat": 40.7845,
+          "lng": -73.9670,
+          "radius": 90,
+          "description": "Open space with wind through trees"
+        },
+        {
+          "id": "trail_end",
+          "title": "Trail Conclusion",
+          "file": "trail_end.mp3",
+          "lat": 40.7850,
+          "lng": -73.9675,
+          "radius": 60,
+          "description": "Reflection and trail completion"
+        }
+      ]
+    },
+    {
+      "id": "historic_district",
+      "title": "Historic District Walk",
+      "description": "Step back in time with this audio tour of historic buildings and significant cultural sites.",
+      "soundClips": [
+        {
+          "id": "historic_intro",
+          "title": "Historic District Welcome",
+          "file": "historic_intro.mp3",
+          "lat": 40.7505,
+          "lng": -73.9934,
+          "radius": 65,
+          "description": "Introduction to the historic district"
+        },
+        {
+          "id": "old_church",
+          "title": "Century-Old Church",
+          "file": "old_church.mp3",
+          "lat": 40.7510,
+          "lng": -73.9930,
+          "radius": 55,
+          "description": "History of the neighborhood church"
+        },
+        {
+          "id": "vintage_market",
+          "title": "Vintage Market Square",
+          "file": "vintage_market.mp3",
+          "lat": 40.7515,
+          "lng": -73.9925,
+          "radius": 85,
+          "description": "Traditional market sounds and history"
+        },
+        {
+          "id": "heritage_building",
+          "title": "Heritage Building",
+          "file": "heritage_building.mp3",
+          "lat": 40.7520,
+          "lng": -73.9920,
+          "radius": 45,
+          "description": "Architectural significance and stories"
+        }
+      ]
+    }
+  ]
+}

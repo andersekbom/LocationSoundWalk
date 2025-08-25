@@ -5,6 +5,7 @@ export interface SoundClip {
   lng: number;
   radius: number;
   title?: string;
+  description?: string;
 }
 
 export interface Story {
@@ -15,14 +16,15 @@ export interface Story {
 }
 
 export interface Location {
-  latitude: number;
-  longitude: number;
+  lat: number;
+  lng: number;
   accuracy?: number;
 }
 
 export interface PlaybackState {
   isPlaying: boolean;
-  currentClip?: SoundClip;
+  currentSound?: SoundClip | null;
+  volume: number;
   error?: string;
 }
 
@@ -33,4 +35,6 @@ export interface AppState {
   playback: PlaybackState;
   isLocationPermissionGranted: boolean;
   isLoadingStories: boolean;
+  isMonitoringActive: boolean;
+  error: string | null;
 }
