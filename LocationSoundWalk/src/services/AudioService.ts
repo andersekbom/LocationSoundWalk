@@ -61,10 +61,10 @@ export class AudioService {
         return { success: true };
       }
 
-      // Load the sound file
-      const soundFile = soundClip.file;
+      // Load the sound file using URI instead of dynamic require
+      const soundUri = `../../assets/sounds/${soundClip.file}`;
       const { sound } = await Audio.Sound.createAsync(
-        require(`../../assets/sounds/${soundFile}`),
+        { uri: soundUri },
         { volume: this.volume }
       );
 
